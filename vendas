@@ -1,0 +1,8 @@
+-- Vendas (Sales)
+Sales Total := SUM( Sales[Sales] )
+
+-- Unidades Vendidas
+Unidades Vendidas := SUM( Sales[Units Sold] )
+
+-- Lucro (Profit)
+Lucro Total := SUM( Sales[Profit] )
